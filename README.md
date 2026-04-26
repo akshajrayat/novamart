@@ -68,33 +68,6 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Project Structure
 
-```
-capstone project Full Stack/
-├── client/                  # React frontend
-│   ├── src/
-│   │   ├── api/             # Firebase API layer (auth, products, cart, orders)
-│   │   ├── components/      # Reusable UI components
-│   │   │   ├── auth/
-│   │   │   ├── cart/        # Cart drawer
-│   │   │   ├── common/      # Error boundary, shared components
-│   │   │   ├── layout/      # Header, Layout
-│   │   │   └── product/     # Product card
-│   │   ├── config/          # Firebase initialization
-│   │   ├── hooks/           # Custom React hooks
-│   │   ├── pages/           # Route pages (Home, Products, Login, Register)
-│   │   ├── store/           # Zustand stores (auth, cart, theme)
-│   │   ├── styles/          # CSS design system
-│   │   ├── types/           # TypeScript interfaces
-│   │   └── utils/           # Helper functions
-│   ├── .env                 # Firebase config (not committed)
-│   └── vite.config.ts
-└── server/                  # Express API (legacy, not required)
-```
-
-## Screenshots
-
-| Home Page | Product Listing | Cart Drawer |
 |-----------|-----------------|-------------|
 | Hero section with featured products | Search, filter, sort | Slide-out cart with quantity controls |
